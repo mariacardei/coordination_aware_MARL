@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stat-marl-eval"
+version = "0.1.0"
+description = "STAT: a coordination-aware spatial task-allocation testbed for MARL evaluation."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "gymnasium>=0.29",
+    "mesa>=2.0",
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "PyYAML>=6.0",
+    "sacred>=0.8",
+    "tensorboard>=2.12",
+    "tensorboard-logger>=0.1",
+    "torch>=2.0",
+    "tqdm>=4.65",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
