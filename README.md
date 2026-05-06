@@ -2,7 +2,7 @@
 
 This repository contains the release artifact for the paper "Coordination Matters: Evaluation of Cooperative Multi-Agent Reinforcement Learning".
 
-The code implements STAT, a commitment-constrained spatial task-allocation testbed, and the MARL baselines used to evaluate coordination-aware diagnostics: DQN, FDQN, IQL, VDN, QMIX, QTRAN, and COMA.
+The code implements STAT, a commitment-constrained spatial task-allocation testbed, and the MARL baselines used to evaluate coordination-aware diagnostics: [DQN](https://www.nature.com/articles/nature14236), [FDQN](https://doi.org/10.1109/TASE.2025.3627429), [IQL](https://dblp.org/rec/conf/icml/Tan93), [VDN](https://arxiv.org/abs/1706.05296), [QMIX](https://proceedings.mlr.press/v80/rashid18a.html), [QTRAN](https://proceedings.mlr.press/v97/son19a.html), and [COMA](https://doi.org/10.1609/aaai.v32i1.11794).
 
 This release contains source code, training/evaluation entry points, PyMARL integration, and documentation. 
 
