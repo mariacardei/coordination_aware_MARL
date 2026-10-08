@@ -1,0 +1,62 @@
+# STAT configurations used by the paper-scale experiments.
+#
+# The small/baseline configurations use shorter budgets than the extreme
+# configurations in the paper. Smoke tests should use much smaller values.
+
+baseline:
+  - name: 3A-6T-5x3
+    agents: 3
+    tasks: 6
+    width: 5
+    height: 3
+    num_bins: 5
+  - name: 3A-6T-10x6
+    agents: 3
+    tasks: 6
+    width: 10
+    height: 6
+    num_bins: 5
+  - name: 3A-12T-10x6
+    agents: 3
+    tasks: 12
+    width: 10
+    height: 6
+    num_bins: 5
+  - name: 5A-12T-10x6
+    agents: 5
+    tasks: 12
+    width: 10
+    height: 6
+    num_bins: 5
+
+extreme:
+  - name: 5A-25T-25x15
+    agents: 5
+    tasks: 25
+    width: 25
+    height: 15
+    num_bins: 5
+  - name: 5A-25T-50x30
+    agents: 5
+    tasks: 25
+    width: 50
+    height: 30
+    num_bins: 5
+  - name: 5A-50T-50x30
+    agents: 5
+    tasks: 50
+    width: 50
+    height: 30
+    num_bins: 5
+  - name: 5A-100T-50x30
+    agents: 5
+    tasks: 100
+    width: 50
+    height: 30
+    num_bins: 5
+  - name: 9A-25T-50x30
+    agents: 9
+    tasks: 25
+    width: 50
+    height: 30
+    num_bins: 5

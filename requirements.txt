@@ -1,0 +1,7 @@
+gymnasium>=0.29
+numpy>=1.23
+pandas>=1.5
+pyyaml>=6.0
+sacred>=0.8
+scipy>=1.9
+torch>=2.0

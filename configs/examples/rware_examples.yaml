@@ -1,0 +1,23 @@
+# RWARE Gymnasium IDs used for process-diagnostic experiments.
+#
+# Paper-scale RWARE runs used common team reward with sum scalarisation for
+# MAPPO/IPPO. Tiny commands below are smoke checks only.
+
+environments:
+  - rware:rware-tiny-2ag-v2
+  - rware:rware-tiny-4ag-v2
+  - rware:rware-small-4ag-v2
+
+team_reward:
+  common_reward: true
+  reward_scalarisation: sum
+
+example_commands:
+  mappo_tiny_2ag: >
+    python scripts/run_epymarl.py --method mappo --env rware
+    --env-id rware:rware-tiny-2ag-v2 --common-reward
+    --reward-scalarisation sum --steps 200 --episode-limit 500
+  ippo_small_4ag: >
+    python scripts/run_epymarl.py --method ippo --env rware
+    --env-id rware:rware-small-4ag-v2 --common-reward
+    --reward-scalarisation sum --steps 200 --episode-limit 500

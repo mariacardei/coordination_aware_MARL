@@ -1,0 +1,10 @@
+method: qmix
+agents: 3
+tasks: 6
+width: 5
+height: 3
+num_bins: 5
+seed: 0
+steps: 50
+episode_limit: 50
+max_per_agent_actions: 128

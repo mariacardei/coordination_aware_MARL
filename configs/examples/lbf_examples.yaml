@@ -1,0 +1,17 @@
+# LBF Gymnasium IDs used for process-diagnostic experiments.
+
+two_agent:
+  full_observability: lbforaging:Foraging-8x8-2p-2f-coop-v3
+  partial_observability: lbforaging:Foraging-2s-8x8-2p-2f-coop-v3
+
+three_agent:
+  full_observability: lbforaging:Foraging-10x10-3p-3f-v3
+  partial_observability: lbforaging:Foraging-2s-10x10-3p-3f-v3
+
+example_commands:
+  mappo_two_agent_full: >
+    python scripts/run_epymarl.py --method mappo --env lbf
+    --env-id lbforaging:Foraging-8x8-2p-2f-coop-v3 --steps 200
+  ippo_three_agent_partial: >
+    python scripts/run_epymarl.py --method ippo --env lbf
+    --env-id lbforaging:Foraging-2s-10x10-3p-3f-v3 --steps 200

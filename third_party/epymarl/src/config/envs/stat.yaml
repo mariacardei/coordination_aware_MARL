@@ -1,0 +1,10 @@
+env: stat
+env_args:
+  key: STAT_5A12T_10x6
+  seed: 0
+  n_agents: 5
+  n_tasks: 12
+  width: 10
+  height: 6
+  num_bins: 5
+  episode_limit: 700

@@ -1,0 +1,9 @@
+env: stat
+env_args:
+  seed: 0
+  agents: 3
+  tasks: 5
+  width: 5
+  height: 5
+  num_bins: 5
+  episode_limit: 700
