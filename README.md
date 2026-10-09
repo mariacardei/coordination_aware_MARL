@@ -107,3 +107,17 @@ See `docs/reproducibility.md` for the paper-to-code map and example commands.
   `--keep_outputs` is passed.
 - Cluster-specific `sbatch` scripts are examples only; local commands are
   provided for executable verification.
+
+## Citation
+
+If you use this code or the STAT environment, please cite:
+
+```bibtex
+@article{cardei2026coordination,
+  title={Coordination Matters: Evaluation of Cooperative Multi-Agent Reinforcement Learning},
+  author={Cardei, Maria Ana and Landers, Matthew and Doryab, Afsaneh},
+  journal={arXiv preprint arXiv:2605.06557},
+  year={2026},
+  url={https://arxiv.org/abs/2605.06557}
+}
+```

@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this code or the STAT environment, please cite this paper."
+title: "Coordination Matters: Evaluation of Cooperative Multi-Agent Reinforcement Learning"
+authors:
+  - family-names: Cardei
+    given-names: Maria Ana
+  - family-names: Landers
+    given-names: Matthew
+  - family-names: Doryab
+    given-names: Afsaneh
+year: 2026
+doi: 10.48550/arXiv.2605.06557
+url: "https://arxiv.org/abs/2605.06557"
+repository-code: "https://github.com/mariacardei/coordination_aware_MARL"
